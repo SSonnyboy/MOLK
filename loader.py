@@ -126,6 +126,7 @@ class Loader4MM(torch.utils.data.Dataset):
         image_feat = np.load(image_file)
         text_feat = np.load(text_file)
         if self.env.args.dataset == 'tiktok':
+            audio_file = os.path.join(self.env.DATA_PATH, 'audio_feat.npy')
             audio_feat = np.load(audio_file)
         # low_dim_feature = np.load(low_dim_feature_file)
         if self.env.args.dataset == 'tiktok':
