@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+dist/
+build/
+
+# Environments
+.env
+.venv
+env/
+venv/
+conda/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs and experiments
+exp_report/
+runs/
+*.log
+
+# Model checkpoints
+*.pth
+*.pt
+*.ckpt
+
+# Dataset (large files)
+datasets/**/*.npy
+datasets/**/*.pt
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# TensorBoard
+tensorboard/
